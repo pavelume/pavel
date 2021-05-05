@@ -1,0 +1,133 @@
+@media screen and (max-height:610px){
+    .wrapper .section-side-header{
+        height:calc(100vh -50px);
+        min-height: calc(100vh - 50px);
+        max-height: calc(100vh - 50px);
+    }
+    .wrapper .section-side-header .side-nav-full .nav-wrapper{
+        padding-bottom:30px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .wrapper{
+        max-width:1300px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .wrapper{
+        overflow:hidden;
+    }
+    .wrapper .section-side-header{
+        transform:translateX(-120%);
+    }
+    .wrapper .section-side-header.open-sidebar{
+        transform:translateX(0);
+    }
+    .main-wrapper{
+        margin-left:0;
+    }
+    .main-wrapper.margin-sidebar{
+        transform:translateX(290px);
+    }
+    .wrapper .mobile-header{
+        display:block;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .main-wrapper .section-home .home{
+        margin:10px 50px 0;
+    }
+    .main-wrapper .section-home{
+        min-height:450px;
+    }
+
+    .section-about .about-me-img{
+        margin-top:20px !important;
+    }
+    .section-about .about-details{
+       padding-right:0px !important;
+    }
+
+    
+
+    /* form achivement section  */
+    .main-wrapper .section-achivement .achivement-cart{
+        margin-bottom:40px;
+    }
+    /* form achivement section  */
+
+    /* for timeline style  */
+    .main-wrapper .timeline-style .timeline .timeline-body .timeline-item .content{
+        margin-right:0;
+        margin-left:25px;
+    }
+    .main-wrapper .timeline-style .timeline .timeline-body{
+        margin-left:100px;
+    }
+    .main-wrapper .timeline-style .timeline .timeline-body .timeline-item .time{
+        left:-110px;
+    }
+    .main-wrapper .timeline-style .timeline .timeline-body .timeline-item .time{
+        width:100px;
+    }
+    /* for timeline style  */
+
+    /* for pricing seciton  */
+    .main-wrapper .section-pricing .pricing-table{
+        margin-top:0 !important;
+    }
+    .main-wrapper .section-pricing .pricing-table .table-single{
+        margin-bottom:45px;
+    }
+    /* for pricing seciton  */
+
+    /* for post section  */
+    .main-wrapper .section-recentpost .post-details .card{
+        margin-bottom:35px;
+    }
+    /* for post section  */
+}
+@media only screen and (max-width:576px){
+    .main-wrapper .section-home .home{
+        margin:10px 20px 0;
+    }
+    .section-seperator{
+        padding:40px 15px;
+    }
+    .main-wrapper .section-home .home .title-main h1{
+        font-size:40px;
+    }
+    .main-wrapper .section .section-heading{
+        margin-bottom:25px !important;
+    }
+    .main-wrapper .section-about .about-details .personal-details p{
+        margin-bottom:15px;
+    }
+
+    /* form achivement section  */
+    .main-wrapper .section-achivement .achivement-cart{
+        margin-bottom:40px;
+    }
+    /* form achivement section  */
+}
+
+@media only screen and (max-width:420px){
+    .main-wrapper .section-home .home .btn-profile-hire .profile-btn{
+        margin-right:0;
+
+    }
+    .main-wrapper .section-home .home .title-main h1{
+        font-size:30px;
+    }
+    .main-wrapper .section-home .home .btn-profile-hire{
+        display:block;
+        text-align:left;
+    }
+    .main-wrapper .section-about .about-section-button{
+        display:block;
+        text-align:left;
+    }
+}
